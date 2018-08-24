@@ -1,0 +1,16 @@
+
+public class DemoStringEquals {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="citi";
+		System.out.println("initial value for name: "+name);
+
+		 String name1="citi";
+		 if(name==name1)
+			 System.out.println("equals");
+		 else
+			 System.out.println("not equal");
+	}
+
+}

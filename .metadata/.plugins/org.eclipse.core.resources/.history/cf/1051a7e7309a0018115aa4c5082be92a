@@ -1,0 +1,15 @@
+import com.pojo.Student;
+import com.interfaces.*;
+
+public class DemoUse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student[] students=new Student[5];
+		DemoUser d=new DemoUser();
+		students=d.readFromUser();
+		
+              
+	}
+
+}

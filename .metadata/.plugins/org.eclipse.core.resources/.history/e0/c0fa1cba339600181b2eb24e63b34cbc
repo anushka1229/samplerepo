@@ -1,0 +1,15 @@
+
+public class TestPerson {
+
+	   public static void main(String[] args)
+	   {
+		   Person P= new Person();
+		   Person P1= new Person(19,"Anushka S");
+		  
+		   P= new Person(); //re initialization
+		   P.setAge(19);
+		   P.display();
+		   P1.display();
+		   
+	   }
+}

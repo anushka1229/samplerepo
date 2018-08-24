@@ -1,0 +1,37 @@
+
+public class DemoStatic {
+
+	  private float age;
+	  private String name;
+	  private static int value;
+	  public DemoStatic()
+	  {
+		  age=12.12f;
+		  name="KGD";
+		  value++;
+		  
+	  }
+	  static
+	  {
+		  value=0;
+	  }
+	  public void display()
+	  {
+		  System.out.println("name-"+name+"age "+age+" value "+value);
+	  }
+	  public static void show()
+	  {
+		  System.out.println(value);
+	  }
+   public static void main(String[] args) {
+	DemoStatic.show();
+	DemoStatic ds=new DemoStatic();
+	DemoStatic.show();
+	DemoStatic ds1=new DemoStatic();
+	ds.show();
+	
+	DemoStatic ds2=new DemoStatic();
+	DemoStatic.show();
+	ds.show();
+}
+}

@@ -1,0 +1,15 @@
+
+public class DemoJagged {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     int[][] values=new int[3][];
+     values[0]=new int[4];
+     values[1]=new int[5];
+     values[2]=new int[3];
+     values[0][0]=23;
+     values[2][1]=233;
+     values[1][2]=6;
+     values[1][4]=90;
+	}
+}

@@ -1,0 +1,12 @@
+import com.pojo.Student;
+import com.interfaces.*;
+
+public class DemoUse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+              
+	}
+
+}

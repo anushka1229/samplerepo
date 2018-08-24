@@ -1,0 +1,11 @@
+package com.pojoexercises;
+
+public class Shape {
+	private int edges;
+	private int vertices;
+	public Shape()
+	{
+		
+	}
+
+}

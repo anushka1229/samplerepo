@@ -1,0 +1,24 @@
+
+public class DemoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int numbers[]= {12,34,44,54,34,55,65,78,90,23,90};
+		int i=0;
+		while(i<numbers.length)
+		{
+			System.out.println(numbers[i]);
+			i++;
+		}
+		int j=0;
+		do
+		{
+			System.out.println(numbers[j]);
+			j++;
+		}while(j<numbers.length);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.pojoexercises;
+
+public class Shape {
+	private int edges;
+	private int vertices;
+	private String name;
+	public Shape()
+	{
+		edges=0;
+		vertices=0;
+	}
+	public Shape(int edges, int vertices)
+	{
+		this.edges=edges;
+		this.vertices=vertices;
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class DemoString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="Citi";
+		System.out.println("initial value for name: "+name);
+		name.concat("Pune");
+		System.out.println("final value for name: "+name);
+				
+
+	}
+
+}

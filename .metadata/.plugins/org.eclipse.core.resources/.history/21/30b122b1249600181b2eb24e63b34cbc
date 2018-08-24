@@ -1,0 +1,14 @@
+
+public class TestPerson {
+
+	   public static void main(String[] args)
+	   {
+		   Person P= new Person();
+		   Person P1= new Person();
+		   P.setValues();
+		   P1.setValues(19, "Anu");
+		   P.display();
+		   P1.display();
+		   
+	   }
+}

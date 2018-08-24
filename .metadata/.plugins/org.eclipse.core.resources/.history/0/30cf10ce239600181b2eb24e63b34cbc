@@ -1,0 +1,15 @@
+
+public class Person {
+  private int age;
+  private String name;
+  public void setValues()
+  {
+	  name="Anushka";
+	  age=24;
+  }
+  public void display()
+  {
+	  System.out.println("Name of person "+name+"\t Age->"+age);
+  }
+
+}

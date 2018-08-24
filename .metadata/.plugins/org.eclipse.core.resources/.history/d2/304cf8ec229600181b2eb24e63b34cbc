@@ -1,0 +1,12 @@
+
+public class TestPerson {
+
+	   public static void main(String[] args)
+	   {
+		   Person P= new Person();
+		   Person P1= new Person();
+		   P.display();
+		   P1.display();
+		   
+	   }
+}

@@ -1,0 +1,10 @@
+
+public class Employee {
+	
+	private int empid;
+	private double salary;
+	private String empName;
+	private String companyName;
+	
+
+}

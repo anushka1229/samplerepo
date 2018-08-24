@@ -1,0 +1,14 @@
+
+public class Demo1D {
+	
+	public static void main(String[] args)
+	{
+		int []numbers;
+		numbers=new int[3];
+		numbers[0]=100;
+		numbers[1]=300;
+		numbers[2]=220;
+	}
+	
+
+}
